@@ -1,7 +1,7 @@
 <form [formGroup]="searchForm" class="flex flex-col items-center gap-2 sm:justify-between sm:flex-row">
   <div class="flex gap-3 items-center">
     <div class="input">
-      <svg class="w-6 h-6"><use class="w-full h-full" href="assets/icons/search-icon.svg"></use></svg>
+      <svg class="w-6 h-6"><use class="w-full h-full" href="assets/icons/icons.svg#search"></use></svg>
       <input formControlName="search" type="search" class="grow" placeholder="Buscar" autofocus/>
     </div>
 
@@ -20,8 +20,8 @@
       <svg class="w-6 h-6">
         <use [attr.href]="
           stateValue().sortDirection === SortDirection.ASC
-            ? 'assets/icons/down-icon.svg'
-            : 'assets/icons/up-icon.svg'
+            ? 'assets/icons/icons.svg#down'
+            : 'assets/icons/icons.svg#up'
         "></use>
       </svg>
     </button>

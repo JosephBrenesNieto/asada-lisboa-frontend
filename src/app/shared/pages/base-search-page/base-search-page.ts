@@ -79,7 +79,7 @@ export abstract class BaseSearchPage<TService, TItem> {
       sortBy: params['sortBy'] ?? '',
       offset: Number(params['offset'] ?? 0),
       filterBy: params['filterBy'] ?? '',
-      sortDirection: (params['sortDirection'] ?? 'asc') as SortDirection,
+      sortDirection: (params['sortDirection'] ?? 'desc') as SortDirection,
     };
   }
 }

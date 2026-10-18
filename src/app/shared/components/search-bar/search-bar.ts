@@ -31,7 +31,7 @@ import { SearchSortRequest } from '@shared/interfaces/search-sort-request.interf
     search: [''],
     sortBy: [''],
     filterBy: [''],
-    sortDirection: [SortDirection.ASC],
+    sortDirection: [SortDirection.DESC],
   });
 
   // Constructor
