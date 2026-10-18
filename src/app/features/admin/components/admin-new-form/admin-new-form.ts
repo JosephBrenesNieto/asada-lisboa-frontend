@@ -103,7 +103,7 @@ export class AdminNewForm implements AfterViewInit {
   }
 
   // Image preview
-  protected defaultImage = '/placeholders/image-placeholder.svg';
+  protected defaultImage = '/placeholders/placeholders.svg#image';
   protected imagePreview = signal<string>(this.defaultImage);
 
   onFileSelected(event: Event) {

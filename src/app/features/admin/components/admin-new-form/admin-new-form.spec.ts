@@ -141,7 +141,7 @@ describe('AdminNewForm', () => {
 
     it('should initialize with default image', () => {
       expect(component['imagePreview']())
-        .toBe('/placeholders/image-placeholder.svg');
+        .toBe('/placeholders/placeholders.svg#image');
     });
 
     it('should load statuses on init', () => {

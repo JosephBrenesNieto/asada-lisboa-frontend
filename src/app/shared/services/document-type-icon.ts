@@ -13,25 +13,26 @@ export class DocumentTypeIcon {
       extension = pathSplit.reverse()[0];
     }
 
+    const iconsBase = 'assets/icons/icons.svg';
     switch(extension) {
       case 'txt':
-        return 'assets/icons/txt-icon.svg';
+        return `${iconsBase}#txt`;
       case 'csv':
-        return 'assets/icons/csv-icon.svg';
+        return `${iconsBase}#csv`;
       case 'pdf':
-        return 'assets/icons/pdf-icon.svg';
+        return `${iconsBase}#pdf`;
       case 'docx':
-        return 'assets/icons/docx-icon.svg';
+        return `${iconsBase}#docx`;
       case 'doc':
-        return 'assets/icons/docx-icon.svg';
+        return `${iconsBase}#docx`;
       case 'xlsx':
-        return 'assets/icons/xlsx-icon.svg';
+        return `${iconsBase}#xlsx`;
       case 'xls':
-        return 'assets/icons/xlsx-icon.svg';
+        return `${iconsBase}#xlsx`;
       case 'zip':
-        return 'assets/icons/zip-icon.svg';
+        return `${iconsBase}#zip`;
       default:
-        return 'assets/icons/document-icon.svg';
+        return `${iconsBase}#document`;
     }
   }
 }

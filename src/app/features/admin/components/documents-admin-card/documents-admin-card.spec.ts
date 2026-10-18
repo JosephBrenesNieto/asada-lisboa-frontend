@@ -41,7 +41,7 @@ describe('DocumentsAdminCard', () => {
 
     documentTypeIcon.documentIcon
       .and
-      .returnValue('assets/icons/pdf-icon.svg');
+      .returnValue('assets/icons/icons.svg#pdf');
 
     await TestBed.configureTestingModule({
       imports: [
@@ -129,7 +129,7 @@ describe('DocumentsAdminCard', () => {
         .toHaveBeenCalledWith('manual.pdf');
 
       expect(result)
-        .toBe('assets/icons/pdf-icon.svg');
+        .toBe('assets/icons/icons.svg#pdf');
     });
   });
 

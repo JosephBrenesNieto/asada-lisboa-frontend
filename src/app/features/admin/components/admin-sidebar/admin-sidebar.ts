@@ -16,12 +16,12 @@ export class AdminSidebar implements AfterViewInit {
   protected isLarge = signal<boolean>(false);
 
   protected navigationLinks = [
-    { title: 'Inicio', link: '/', imageUrl: 'assets/icons/home-icon.svg' },
-    { title: 'Usuarios', link: '/admin/usuarios', imageUrl: 'assets/icons/user-icon.svg' },
-    { title: 'Galería', link: '/admin/imagenes', imageUrl: 'assets/icons/image-icon.svg' },
-    { title: 'Noticias', link: '/admin/noticias', imageUrl: 'assets/icons/new-icon.svg' },
-    { title: 'Documentos', link: '/admin/documentos', imageUrl: 'assets/icons/admin-document-icon.svg' },
-    { title: 'Configuraciones', link: '/admin/configuraciones', imageUrl: 'assets/icons/settings-icon.svg' },
+    { title: 'Inicio', link: '/', imageUrl: 'assets/icons/icons.svg#home' },
+    { title: 'Usuarios', link: '/admin/usuarios', imageUrl: 'assets/icons/icons.svg#user' },
+    { title: 'Galería', link: '/admin/imagenes', imageUrl: 'assets/icons/icons.svg#image' },
+    { title: 'Noticias', link: '/admin/noticias', imageUrl: 'assets/icons/icons.svg#new' },
+    { title: 'Documentos', link: '/admin/documentos', imageUrl: 'assets/icons/icons.svg#admin-document' },
+    { title: 'Configuraciones', link: '/admin/configuraciones', imageUrl: 'assets/icons/icons.svg#settings' },
   ];
 
   // Injects

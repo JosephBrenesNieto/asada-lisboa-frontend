@@ -17,8 +17,8 @@ export class PublicFooter {
   protected facebookLink = 'https://www.facebook.com/asadalisboa/';
 
   protected contactLinks = [
-    { title: 'Oficinas', imageUrl: 'assets/icons/location-icon.svg', description: 'Urbanización Lisboa', link: 'https://maps.app.goo.gl/kvGqGzzrC8gvcyTcA', type: '' },
-    { title: 'Correo', imageUrl: 'assets/icons/mail-icon.svg', description: 'asadaurblisboa@gmail.com', link: 'asadaurblisboa@gmail.com', type: 'mailto:' },
-    { title: 'Teléfono', imageUrl: 'assets/icons/phone-icon.svg', description: '+506 2433-3882', link: '+506 2433-3882', type: 'tel:' },
+    { title: 'Oficinas', imageUrl: 'assets/icons/icons.svg#location', description: 'Urbanización Lisboa', link: 'https://maps.app.goo.gl/kvGqGzzrC8gvcyTcA', type: '' },
+    { title: 'Correo', imageUrl: 'assets/icons/icons.svg#mail', description: 'asadaurblisboa@gmail.com', link: 'asadaurblisboa@gmail.com', type: 'mailto:' },
+    { title: 'Teléfono', imageUrl: 'assets/icons/icons.svg#phone', description: '+506 2433-3882', link: '+506 2433-3882', type: 'tel:' },
   ];
 }

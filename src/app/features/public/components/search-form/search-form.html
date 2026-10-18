@@ -21,7 +21,7 @@
       <div class="w-full flex justify-between items-center gap-3 border-y border-base-200 py-3">
         <div class="flex items-center gap-2">
           <div>
-            <svg class="w-6 h-6"><use class="w-full h-full" href="assets/icons/search-icon.svg"></use></svg>
+            <svg class="w-6 h-6"><use class="w-full h-full" href="assets/icons/icons.svg#search"></use></svg>
           </div>
           <div>
             <div class="sm:hidden badge badge-soft badge-secondary">{{ item.type| titlecase }}</div>
@@ -34,11 +34,11 @@
         <div>
           @if(item.type.trim().toLowerCase() === 'noticia') {
             <a [routerLink]="[item.url]" class="btn btn-primary text-white">
-              <svg class="w-6 h-6"><use class="w-full h-full" href="assets/icons/navigation-icon.svg"></use></svg>
+              <svg class="w-6 h-6"><use class="w-full h-full" href="assets/icons/icons.svg#navigation"></use></svg>
             </a>
           } @else {
             <a [href]="[item.url]" class="btn btn-primary text-white">
-              <svg class="w-6 h-6"><use class="w-full h-full" href="assets/icons/navigation-icon.svg"></use></svg>
+              <svg class="w-6 h-6"><use class="w-full h-full" href="assets/icons/icons.svg#navigation"></use></svg>
             </a>
           }
         </div>

@@ -88,22 +88,22 @@ describe('ContactBoard', () => {
 
   it('should return phone icon', () => {
     const icon = component.contactIcon('+50688888888');
-    expect(icon).toBe('/assets/icons/phone-icon.svg');
+    expect(icon).toBe('/assets/icons/icons.svg#phone');
   });
 
   it('should return mail icon', () => {
     const icon = component.contactIcon('test@test.com');
-    expect(icon).toBe('/assets/icons/mail-icon.svg');
+    expect(icon).toBe('/assets/icons/icons.svg#mail');
   });
 
   it('should return web icon', () => {
     const icon = component.contactIcon('https://site.com');
-    expect(icon).toBe('/assets/icons/web-icon.svg');
+    expect(icon).toBe('/assets/icons/icons.svg#web');
   });
 
   it('should return user icon fallback', () => {
     const icon = component.contactIcon('unknown');
-    expect(icon).toBe('/assets/icons/user-icon.svg');
+    expect(icon).toBe('/assets/icons/icons.svg#user');
   });
 
   it('should return link message for web', () => {

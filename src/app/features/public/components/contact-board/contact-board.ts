@@ -56,21 +56,21 @@ export class ContactBoard implements AfterViewInit {
   }
 
   public contactIcon(contactValue: string): string {
-    const path = '/assets/icons';
+    const path = 'assets/icons/icons.svg';
 
     if(contactValue.startsWith('+506') || contactValue.match(FormUtils.phonePattern))
-      return `${path}/phone-icon.svg`;
+      return `${path}#phone`;
 
     if(contactValue.match(FormUtils.emailPattern))
-      return `${path}/mail-icon.svg`;
+      return `${path}#mail`;
 
     if(contactValue.startsWith('http://') || contactValue.startsWith('https://'))
-      return `${path}/web-icon.svg`;
+      return `${path}#web`;
 
     if(contactValue.match('[AP]M|[ap].m.|[AP].M.|[ap]m'))
-      return `${path}/clock-icon.svg`;
+      return `${path}#clock`;
 
-    return `${path}/user-icon.svg`;
+    return `${path}#user`;
   }
 
   public contactTextMessage(contactValue: string, contactName: string) {
